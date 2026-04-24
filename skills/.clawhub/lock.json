@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "skills": {
+    "simplify": {
+      "version": "1.0.2",
+      "installedAt": 1773463442787
+    },
+    "frontend-slides": {
+      "version": "2.0.2",
+      "installedAt": 1773463502903
+    },
+    "baoyu-comic": {
+      "version": "1.60.0",
+      "installedAt": 1773463803022
+    },
+    "baoyu-compress-image": {
+      "version": "1.60.0",
+      "installedAt": 1773464469621
+    },
+    "baoyu-image-gen": {
+      "version": "1.0.0",
+      "installedAt": 1773464702195
+    },
+    "baoyu-cover-image": {
+      "version": "1.60.0",
+      "installedAt": 1773464882808
+    }
+  }
+}

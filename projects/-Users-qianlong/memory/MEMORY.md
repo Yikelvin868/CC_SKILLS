@@ -1,0 +1,5 @@
+- [HOMSH D30 YouTube发布](project_homsh_d30_youtube.md) — 2026-04-09发布D30广告视频到YouTube
+- [HOMSH EDA工具](user_eda_tools.md) — 硬件团队用Cadence和Altium Designer
+- [报告存Obsidian](feedback_obsidian_reports.md) — 所有报告必须存入Obsidian vault (~/Documents/乾龙工作间/)
+- [主动使用营销Skills](feedback_proactive_skills.md) — 营销话题出现时主动调用对应skill，不等指令
+- [opticsiris SEO/GEO项目](project_opticsiris_seo_geo.md) — HOMSH网站SEO/GEO每日优化系统，基线35/100，内容存于Obsidian

@@ -1,0 +1,27 @@
+{
+  "enabledPlugins": {
+    "android-reverse-engineering@android-reverse-engineering-skill": true
+  },
+  "extraKnownMarketplaces": {
+    "android-reverse-engineering-skill": {
+      "source": {
+        "source": "github",
+        "repo": "SimoneAvogadro/android-reverse-engineering-skill"
+      }
+    }
+  },
+  "mcpServers": {
+    "supermemory": {
+      "url": "https://mcp.supermemory.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer <YOUR_SUPERMEMORY_TOKEN>"
+      }
+    },
+    "xmcp": {
+      "command": "<HOME>/.claude/mcp-servers/xmcp/.venv/bin/python",
+      "args": ["<HOME>/.claude/mcp-servers/xmcp/server.py"],
+      "cwd": "<HOME>/.claude/mcp-servers/xmcp"
+    }
+  },
+  "skipDangerousModePermissionPrompt": true
+}

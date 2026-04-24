@@ -1,0 +1,49 @@
+# Sensitive / machine-specific files
+settings.json
+settings.local.json
+credentials.json
+stats-cache.json
+mcp-needs-auth-cache.json
+history.jsonl
+
+# Machine-specific directories
+cache/
+backups/
+debug/
+file-history/
+paste-cache/
+session-env/
+sessions/
+shell-snapshots/
+telemetry/
+
+# Plugin runtime cache
+plugins/cache/
+
+# Tasks (ephemeral, per-session)
+tasks/
+
+# Todos (ephemeral)
+todos/
+
+# Session history (large JSONL files, machine-specific)
+projects/**/*.jsonl
+projects/**/[0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f][0-9a-f]-*/
+
+# Keep only memory and CLAUDE.md in projects
+!projects/**/memory/
+!projects/**/CLAUDE.md
+
+# OS files
+.DS_Store
+*.swp
+*.swo
+
+# MCP servers (contain venvs and nested git repos, reinstall on target)
+mcp-servers/
+
+# Plugins (reinstall via plugin system on target machine)
+plugins/
+
+# Template for settings (tracked instead of real settings.json)
+!settings.template.json
